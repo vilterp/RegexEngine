@@ -1,0 +1,12 @@
+A very simple regex engine written as a learning project, based on the theory described here: http://perl.plover.com/Regex/article.html
+
+An example regex: I [don't ]?like [[Hormel |Spamco ]?spam|bacon|eggs][ for [breakfast|lunch|dinner]]?.
+
+Syntax:
+
+[foo]? makes foo optional
+[foo|bar] is a choice between foo and bar
+
+Options and choices can be nested, as in the example.
+
+statechartviz.py is a nodebox (http://nodebox.net) script which visualizes the state charts which the engine creates from regular expressions; statechartviz.(pdf|png) is a visualization of the above example regex.
